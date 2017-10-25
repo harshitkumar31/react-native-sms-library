@@ -71,7 +71,7 @@ public class Module extends ReactContextBaseJavaModule {
       } catch(Exception err){
         fail.invoke(err);
       }
-    } catch(JSONException e){
+    } catch(Exception e){
       fail.invoke(e);
     }
   }
